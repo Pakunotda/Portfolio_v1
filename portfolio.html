@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Personal Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      scroll-behavior: smooth;
+    background: linear-gradient(135deg, #088395, #111);
+
+    }
+
+    
+    section {
+      scroll-margin-top: 90px;
+    }
+
+    
+    header {
+      background-color: #111;
+      color:  #fff;
+      padding: 120px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      font-weight: bold;
+    }
+
+    
+    .btn-custom {
+      background-color: #740A03;
+      color: #111;
+      padding: 12px 30px;
+      border-radius: 30px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    .btn-custom:hover {
+      background-color: #740A03;
+      transform: translateY(-3px);
+    }
+
+    
+    section {
+      padding: 80px 0;
+    }
+    #projects{
+        color: #FFF;
+    }
+    #about{
+              color: #fff;
+    }
+    #education{
+              color: #fff;
+    }
+    #contact{
+              color: #fff;
+    }
+    .project-card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(251, 251, 251, 0.15);
+    }
+    .social-icons{
+      text-align: center;
+      margin-top: 20px;
+    }
+    .social-icons a{
+     color: #fff;
+  font-size: 1.8rem;
+  margin: 0 15px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+    .social-icons a:hover{
+        color: #740A03;
+  text-decoration: none;
+    }
+    .social-icons .facebook {
+  color: #1877F2;
+}
+
+.social-icons .github {
+  color: #ffffff;
+}
+
+.social-icons .instagram {
+  color: #E4405F;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+  text-decoration: none;
+}
+#socials {
+  color: #fff;
+  padding: 80px 0;
+}
+
+  </style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#home">AMPATER, Railhie Benj E.</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header id="home">
+  <div class="container">
+    <h1 class="display-4">Ampater Railhie Benj E.</h1>
+    <p class="lead mb-4">Web Designer | Developer | Student</p>
+
+
+    <a href="#projects" class="btn btn-custom">
+      View My Projects
+    </a>
+  </div>
+</header>
+
+<section id="projects">
+  <div class="container">
+    <h2 class="mb-4 text-center">Projects</h2>
+
+    <div class="row justify-content-center g-4">
+      
+      <div class="col-md-4">
+        <div class="card project-card shadow h-100">
+          <img src="1A/fire.jpg" class="card-img-top" alt="Favorite 3 Anime">
+          <div class="card-body">
+            <h5 class="card-title">Favorite 3 Anime</h5>
+            <p class="card-text">List Of 3 Favorite Anime</p>
+            <a href="https://projects-weld-iota.vercel.app" class="btn btn-outline-dark btn-sm">View Project</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card project-card shadow h-100">
+          <img src="images/periodic-table.jpg" class="card-img-top" alt="Periodic Table CSS AND HTML">
+          <div class="card-body">
+            <h5 class="card-title">Periodic Table CSS AND HTML</h5>
+            <p class="card-text">Periodic Table With Animation And HTML/CSS</p>
+            <a href="https://projects-weld-iota.vercel.app/periodic.html" class="btn btn-outline-dark btn-sm">View Project</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card project-card shadow h-100">
+          <img src="images/bucketlist.jpg" class="card-img-top" alt="Bucketlist HTML">
+          <div class="card-body">
+            <h5 class="card-title">Bucketlist HTML</h5>
+            <p class="card-text">Bucket List With 3D Nyan Cat</p>
+            <a href="https://projects-weld-iota.vercel.app/bucketlist.html" class="btn btn-outline-dark btn-sm">View Project</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="container">
+    <h2>About Me</h2>
+    <p>
+      I like playing games online and offline. I enjoy learning programming
+      basics and improving my skills every day.
+    </p>
+  </div>
+</section>
+
+<section id="education">
+  <div class="container">
+    <h2>Education</h2>
+
+      <h5 class ="mt-3">Arellano University - Elisa Esguerra Campus</h5>
+     <i class="bi bi-geo-alt-fill"></i>
+      Gen. Luna St.,Brgy. Bayan-Bayanan 1470 Malabon City
+    </p>
+    <p>1st Year Computer Science Student</p>
+
+    <h5 class ="mt-3">University Of Caloocan City</h5>
+     <i class="bi bi-geo-alt-fill"></i>
+      Biglang Awa St, Cor. 11th Ave, Caloocan City
+    </p>
+    <p>1st Year Computer Science Student</p>
+
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <h2>Contact</h2>
+    <p> You can contact me at my socials or dial or me on this following information</p>
+    <p>Gmail: railhiebenj@gmail.com</p>
+    <p>Mobile Number: 09087231464</p>
+</section>
+
+<section id="socials">
+  <div class="container text-center">
+    <h2 class="mb-3">Socials</h2>
+    <p class="mb-4">Follow me on my social platforms</p>
+
+    <div class="social-icons">
+      <a href="https://facebook.com/rairai.ampii" target="_blank" class="facebook">
+        <i class="bi bi-facebook"></i>
+      </a>
+
+      <a href="https://github.com/Pakunotda" target="_blank" class="github">
+        <i class="bi bi-github"></i>
+      </a>
+
+      <a href="https://www.instagram.com/rail.hie/" target="_blank" class="instagram">
+        <i class="bi bi-instagram"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+ 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
